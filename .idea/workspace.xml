@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ddd3ae59-6985-487c-8116-3454a7b7741e" name="Default Changelist" comment="deploy project in gh-pages" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="2MNWi6lBkn3CoVSymunB1H0Crjr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddd3ae59-6985-487c-8116-3454a7b7741e" name="Default Changelist" comment="" />
+      <created>1677608644614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677608644614</updated>
+      <workItem from="1677608647002" duration="1776000" />
+      <workItem from="1677610696944" duration="977000" />
+      <workItem from="1677614646263" duration="1706000" />
+      <workItem from="1677616442413" duration="1719000" />
+      <workItem from="1677618334169" duration="1971000" />
+      <workItem from="1677620376636" duration="1714000" />
+      <workItem from="1677625298872" duration="1859000" />
+      <workItem from="1677627268653" duration="1254000" />
+      <workItem from="1677629104493" duration="1712000" />
+      <workItem from="1677630895343" duration="1768000" />
+      <workItem from="1677632752965" duration="1722000" />
+      <workItem from="1677634550356" duration="1766000" />
+      <workItem from="1677636405925" duration="1724000" />
+      <workItem from="1677638308475" duration="556000" />
+      <workItem from="1677639320557" duration="513000" />
+      <workItem from="1677677448782" duration="584000" />
+      <workItem from="1677684099303" duration="694000" />
+      <workItem from="1677686163013" duration="801000" />
+      <workItem from="1677687180225" duration="64000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1677634886202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677634886202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deploy project in gh-pages">
+      <created>1677635192459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635192459</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deploy project in gh-pages">
+      <created>1677635876983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635876983</updated>
+    </task>
+    <task id="LOCAL-00004" summary="deploy project in gh-pages">
+      <created>1677636958267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677636958267</updated>
+    </task>
+    <task id="LOCAL-00005" summary="deploy project in gh-pages">
+      <created>1677637479136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677637479136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deploy project in gh-pages">
+      <created>1677637610041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677637610041</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deploy project in gh-pages">
+      <created>1677638579329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677638579329</updated>
+    </task>
+    <task id="LOCAL-00008" summary="deploy project in gh-pages">
+      <created>1677638650672</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677638650672</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="deploy project in gh-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy project in gh-pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="508" y="403" key="#ESLint" timestamp="1677687243761">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="508" y="403" key="#ESLint/0.0.1280.984@0.0.1280.984" timestamp="1677687243761" />
+    <state x="309" y="270" key="EditFileWatcherDialog" timestamp="1677617752043">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="309" y="270" key="EditFileWatcherDialog/0.0.1280.984@0.0.1280.984" timestamp="1677617752043" />
+    <state x="141" y="137" key="SettingsEditor" timestamp="1677639803203">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="137" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1677639803203" />
+    <state x="408" y="189" key="VCS.ChangeListViewerDialog" timestamp="1677637041580">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="408" y="189" key="VCS.ChangeListViewerDialog/0.0.1280.984@0.0.1280.984" timestamp="1677637041580" />
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1677638660995">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1677638660995" />
+    <state x="343" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1677631438732">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="343" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.984@0.0.1280.984" timestamp="1677631438732" />
+    <state x="479" y="210" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1677637119962">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="479" y="210" key="git4idea.branch.GitBranchIsNotFullyMergedDialog/0.0.1280.984@0.0.1280.984" timestamp="1677637119962" />
+    <state x="441" y="398" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1677686376446">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="441" y="398" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.984@0.0.1280.984" timestamp="1677686376446" />
+    <state x="385" y="336" key="git4idea.ui.GitTagDialog" timestamp="1677635357224">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="385" y="336" key="git4idea.ui.GitTagDialog/0.0.1280.984@0.0.1280.984" timestamp="1677635357224" />
+  </component>
+</project>

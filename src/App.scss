@@ -1,0 +1,59 @@
+:root {
+  --green: #0ECB81;
+  --green-hover: #32D993;
+  --red: #F6465D;
+  --red-hover: #FF707E;
+  --green-text: #0ecb81;
+  --red-text: #f6465d;
+}
+
+button {
+
+  &.buy {
+    background: var(--green);
+
+    &:hover {
+      background: var(--green-hover);
+    }
+  }
+
+  &.sell {
+    background: var(--red);
+
+    &:hover {
+      background: var(--red-hover);
+    }
+  }
+
+}
+
+.table-order {
+  padding: 10px;
+  max-width: 250px;
+  margin: 0 auto;
+  font-size: 12px;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    color: #b7bdc6;
+    padding: 1px 0;
+    font-weight: 500;
+
+    .buy {
+      color: var(--green-text);
+    }
+
+    .sell {
+      color: var(--red-text);
+    }
+
+  }
+
+  &__head {
+    color: #848e9c;
+    padding: 6px 0;
+    font-weight: 400;
+  }
+
+}
