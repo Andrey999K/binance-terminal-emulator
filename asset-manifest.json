@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/binance-terminal-emulator/static/css/main.cac243e8.css",
-    "main.js": "/binance-terminal-emulator/static/js/main.4dfb8328.js",
+    "main.css": "/binance-terminal-emulator/static/css/main.6bead61f.css",
+    "main.js": "/binance-terminal-emulator/static/js/main.b9d06f1f.js",
     "static/js/787.3c49921a.chunk.js": "/binance-terminal-emulator/static/js/787.3c49921a.chunk.js",
     "index.html": "/binance-terminal-emulator/index.html",
-    "main.cac243e8.css.map": "/binance-terminal-emulator/static/css/main.cac243e8.css.map",
-    "main.4dfb8328.js.map": "/binance-terminal-emulator/static/js/main.4dfb8328.js.map",
+    "main.6bead61f.css.map": "/binance-terminal-emulator/static/css/main.6bead61f.css.map",
+    "main.b9d06f1f.js.map": "/binance-terminal-emulator/static/js/main.b9d06f1f.js.map",
     "787.3c49921a.chunk.js.map": "/binance-terminal-emulator/static/js/787.3c49921a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cac243e8.css",
-    "static/js/main.4dfb8328.js"
+    "static/css/main.6bead61f.css",
+    "static/js/main.b9d06f1f.js"
   ]
 }
