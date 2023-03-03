@@ -51,10 +51,9 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App bg-[#161A1E]">
         <div className="
-            container font-sans mx-auto h-screen flex justify-between
-             bg-[#161A1E]">
+            container font-sans mx-auto h-screen flex flex-col justify-between md:flex-row">
             <FormsOrder available={available} create={createOrder} data={dataCurrency}/>
             <TableOrder orders={orders}/>
         </div>
