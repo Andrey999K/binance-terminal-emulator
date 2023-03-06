@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TableOrder = ({orders}) => {
+const TableOrders = ({orders}) => {
     return (
         <div className='basis-1/2'>
             <div className='table-order'>
@@ -21,4 +21,4 @@ const TableOrder = ({orders}) => {
     );
 };
 
-export default TableOrder;
+export default TableOrders;

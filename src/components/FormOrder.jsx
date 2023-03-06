@@ -2,17 +2,19 @@ import React, {useState} from 'react';
 import MyInput from "./UI/input/MyInput";
 import MyButton from "./UI/button/MyButton";
 import {type} from "@testing-library/user-event/dist/type";
+import FormInputRange from "./UI/input/FormInputRange";
+import {getTime} from "../functions";
 
 const FormOrder = ({typeForm, data, create, available}) => {
 
     const [price, setPrice] = useState(typeForm === 'buy' ? data.priceBuy : data.priceSell)
     const [amount, setAmount] = useState('');
     const [total, setTotal] = useState('');
+    const [quantity, setQuantity] = useState(0);
 
     // ОКРУГЛЕНИЕ ЧИСЛА ДО ОПРЕДЕЛЁННОГО ЗНАКА В МЕНЬШУЮ СТОРОНУ
     const roundNumber = (value, count) => {
-        console.log(value, count);
-        return parseInt(value * Math.pow(10, count)) / Math.pow(10, count);
+        return Math.floor(value * Math.pow(10, count)) / Math.pow(10, count);
     }
 
     // ПРОВЕРКА КОРРЕКТНОСТИ ВВОДА (ПРОВЕРКА НА ВВОД НЕ ЧИСЛОВЫХ СИМВОЛОВ И ЛИШНЕЙ ТОЧКИ)
@@ -65,6 +67,24 @@ const FormOrder = ({typeForm, data, create, available}) => {
         }
     }
 
+    const inputQuentity = (value) => {
+        setQuantity(value);
+        if (price !== "" && price !== "0") {
+            if (typeForm === 'buy') {
+                const totalValue = roundNumber(available / 100 * value, 6);
+                setTotal(String(totalValue));
+                setAmount(String(roundNumber(totalValue / price, 6)));
+            } else {
+                const totalValue = roundNumber(available / 100 * value, 6);
+                setAmount(String(totalValue));
+                setTotal(String(roundNumber(totalValue * price, 6)));
+            }
+        } else {
+            setAmount(String(0));
+            setTotal(String(0));
+        }
+    }
+
     const inputTotal = (value) => {
         if (checkInputCorrect(value)) {
             setTotal(value);
@@ -98,7 +118,7 @@ const FormOrder = ({typeForm, data, create, available}) => {
             type: type,
             price: price,
             amount: amount,
-            time: String((new Date()).getHours()) + ':' + String((new Date()).getMinutes()) + ':' + String((new Date()).getSeconds())
+            time: getTime()
         }
         create(newOrder);
         setAmount('');
@@ -111,17 +131,26 @@ const FormOrder = ({typeForm, data, create, available}) => {
                 Avbl <span className="text-white">{available} {typeForm === 'buy' ? 'USDT' : 'BTC'}</span>
             </div>
             <MyInput
-                value={price} placeholder='Price'
+                id={'price-'+typeForm}
+                currency='USDT'
+                value={price} placeholderLabel='Price'
                 onChange={event => inputPrice(event.target.value)}
             />
             <MyInput
+                id={'amount-'+typeForm}
+                currency='BTC'
                 value={amount}
-                placeholder='Amount'
+                placeholderLabel='Amount'
                 onChange={event => inputAmount(event.target.value)}
             />
+            <FormInputRange
+                value={quantity}
+                onChange={event => inputQuentity(event.target.value)}/>
             <MyInput
+                id={'total-'+typeForm}
+                currency='USDT'
                 value={total}
-                placeholder='Total'
+                placeholderLabel='Total'
                 onChange={event => inputTotal(event.target.value)}
             />
             <MyButton

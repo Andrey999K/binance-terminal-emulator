@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.scss';
 import FormsOrder from "./components/FormsOrder";
-import TableOrder from "./components/TableOrder";
+import TableOrders from "./components/TableOrders";
+import {getRandomArbitrary, getTime, roundNumber} from "./functions";
 
 function App() {
 
@@ -26,8 +27,43 @@ function App() {
       ]
   )
 
+  const createRandomOrder = () => {
+      return {
+          id: Date.now(),
+          type: ["buy", "sell"][Math.round(Math.random())],
+          price: roundNumber(getRandomArbitrary(23100, 23200), 2),
+          amount: roundNumber(getRandomArbitrary(0.00001, 0.001), 6),
+          time: getTime()
+      };
+  }
+
+  const addRandomOrder = () => {
+      setOrders(prev => [...prev, createRandomOrder() ])
+  }
+
+  useEffect(() => {
+    if (orders.length > 30) {
+        let newMassOrders = orders;
+        newMassOrders.shift();
+        setOrders(newMassOrders);
+    }
+    saveLocalStorage('orders', orders);
+  }, [orders])
+
+  useEffect(() => {
+      const interval = setInterval(() => {
+          addRandomOrder();
+      }, 1000);
+      return () => clearInterval(interval);
+  }, []);
+
+
   const correctNumber = (value) => {
       return Number(value.toFixed(6))
+  }
+
+  const saveLocalStorage = (field, value) => {
+      localStorage.setItem(field, JSON.stringify(value));
   }
 
   const createOrder = (order) => {
@@ -47,7 +83,7 @@ function App() {
           localStorage.setItem('available', JSON.stringify(dataCurrency));
       }
       setOrders([...orders, order]);
-      localStorage.setItem('orders', JSON.stringify([...orders, order]));
+      saveLocalStorage('orders', [...orders, order]);
   }
 
   return (
@@ -55,7 +91,7 @@ function App() {
         <div className="
             container font-sans mx-auto h-screen flex flex-col justify-between md:flex-row">
             <FormsOrder available={available} create={createOrder} data={dataCurrency}/>
-            <TableOrder orders={orders}/>
+            <TableOrders orders={orders}/>
         </div>
     </div>
   );

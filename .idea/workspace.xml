@@ -11,7 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddd3ae59-6985-487c-8116-3454a7b7741e" name="Default Changelist" comment="deploy project in gh-pages">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/input/FormInputRange.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormOrder.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableOrders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +107,35 @@
       <workItem from="1677799467253" duration="1572000" />
       <workItem from="1677801307817" duration="1791000" />
       <workItem from="1677804582152" duration="1614000" />
+      <workItem from="1677847402221" duration="1731000" />
+      <workItem from="1677849727884" duration="1713000" />
+      <workItem from="1677851466242" duration="686000" />
+      <workItem from="1677853657932" duration="590000" />
+      <workItem from="1677861062303" duration="1632000" />
+      <workItem from="1677862883887" duration="1261000" />
+      <workItem from="1677879104148" duration="1263000" />
+      <workItem from="1677944798507" duration="1099000" />
+      <workItem from="1677946614253" duration="1734000" />
+      <workItem from="1677948379731" duration="1793000" />
+      <workItem from="1677950495786" duration="1996000" />
+      <workItem from="1677952725883" duration="1790000" />
+      <workItem from="1677954830649" duration="1572000" />
+      <workItem from="1677956709906" duration="1749000" />
+      <workItem from="1677959618754" duration="1402000" />
+      <workItem from="1677961819875" duration="1265000" />
+      <workItem from="1677963737804" duration="653000" />
+      <workItem from="1677966534277" duration="1054000" />
+      <workItem from="1677967913403" duration="864000" />
+      <workItem from="1677969673683" duration="1323000" />
+      <workItem from="1677973192899" duration="1749000" />
+      <workItem from="1678042676384" duration="593000" />
+      <workItem from="1678044883453" duration="1746000" />
+      <workItem from="1678046811347" duration="633000" />
+      <workItem from="1678048660340" duration="1780000" />
+      <workItem from="1678051783855" duration="1193000" />
+      <workItem from="1678056507113" duration="1373000" />
+      <workItem from="1678058332607" duration="598000" />
+      <workItem from="1678060672079" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677634886202</created>
@@ -194,10 +231,14 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="508" y="403" key="#ESLint/0.0.1280.984@0.0.1280.984" timestamp="1677687243761" />
-    <state x="309" y="270" key="EditFileWatcherDialog" timestamp="1677617752043">
+    <state x="370" y="239" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1678062410859">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="309" y="270" key="EditFileWatcherDialog/0.0.1280.984@0.0.1280.984" timestamp="1677617752043" />
+    <state x="370" y="239" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984@0.0.1280.984" timestamp="1678062410859" />
+    <state x="309" y="270" key="EditFileWatcherDialog" timestamp="1677948679667">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="309" y="270" key="EditFileWatcherDialog/0.0.1280.984@0.0.1280.984" timestamp="1677948679667" />
     <state x="141" y="137" key="SettingsEditor" timestamp="1677639803203">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -210,10 +251,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1677638660995" />
-    <state x="343" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1677631438732">
+    <state x="343" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1677848393099">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="343" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.984@0.0.1280.984" timestamp="1677631438732" />
+    <state x="343" y="102" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.984@0.0.1280.984" timestamp="1677848393099" />
     <state x="479" y="210" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1677637119962">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
