@@ -3,12 +3,12 @@
 
 Pet-проект с использованием js-фреймворка <b>React<b/> css-фреймворка <b>Tailwind CSS<b/>.
 
-Используемые технологии:
-— HTML
-— CSS
-— JavaScript
-— React
-— Tailwind CSS
+Используемые технологии:<br>
+— HTML<br>
+— CSS<br>
+— JavaScript<br>
+— React<br>
+— Tailwind CSS<br>
 
     В разработке использовал компонентный подход. Компоненты функциональные.
 Для написания стилей использовал Tailwind CSS и в некоторых случаях CSS-препроцессор SCSS.
