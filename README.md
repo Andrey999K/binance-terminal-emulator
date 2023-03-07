@@ -1,6 +1,29 @@
 # Binance terminal emulator
 <https://andrey999k.github.io/binance-terminal-emulator/>
 
+Pet-проект с использованием js-фреймворка <b>React<b/> css-фреймворка <b>Tailwind CSS<b/>.
+
+Используемые технологии:
+— HTML
+— CSS
+— JavaScript
+— React
+— Tailwind CSS
+
+    В разработке использовал компонентный подход. Компоненты функциональные.
+Для написания стилей использовал Tailwind CSS и в некоторых случаях CSS-препроцессор SCSS.
+
+**Компонент FormsOrder:** 
+    Содержит 2 копмонента форм. Одна для покупки криптовалюты, вторая для продажи.
+    Принимает 3 пропса:
+        1) _available_ — данные об имеющейся паре криптовалют
+        2) _createOrder_ — функция для создания нового ордера
+        3) _dataCurrency_ — данные о текущем курсе криптовалюты
+**Компонент FormOrder**
+  
+    
+
+Компонент FormOrder — форма для создания 
 
 # Getting Started with Create React App
 
