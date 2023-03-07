@@ -1,7 +1,7 @@
 # Binance terminal emulator
 <https://andrey999k.github.io/binance-terminal-emulator/>
 
-Pet-проект с использованием js-фреймворка <b>React<b/> css-фреймворка <b>Tailwind CSS<b/>.
+Pet-проект с использованием js-фреймворка <b>React</b> и css-фреймворка <b>Tailwind CSS</b>.
 
 Используемые технологии:<br>
 — HTML<br>
