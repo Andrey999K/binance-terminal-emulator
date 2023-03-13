@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/binance-terminal-emulator/static/css/main.e65bf981.css",
-    "main.js": "/binance-terminal-emulator/static/js/main.3d4702a2.js",
+    "main.css": "/binance-terminal-emulator/static/css/main.d9efea3b.css",
+    "main.js": "/binance-terminal-emulator/static/js/main.cf2bed5a.js",
     "static/js/787.3c49921a.chunk.js": "/binance-terminal-emulator/static/js/787.3c49921a.chunk.js",
     "index.html": "/binance-terminal-emulator/index.html",
-    "main.e65bf981.css.map": "/binance-terminal-emulator/static/css/main.e65bf981.css.map",
-    "main.3d4702a2.js.map": "/binance-terminal-emulator/static/js/main.3d4702a2.js.map",
+    "main.d9efea3b.css.map": "/binance-terminal-emulator/static/css/main.d9efea3b.css.map",
+    "main.cf2bed5a.js.map": "/binance-terminal-emulator/static/js/main.cf2bed5a.js.map",
     "787.3c49921a.chunk.js.map": "/binance-terminal-emulator/static/js/787.3c49921a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e65bf981.css",
-    "static/js/main.3d4702a2.js"
+    "static/css/main.d9efea3b.css",
+    "static/js/main.cf2bed5a.js"
   ]
 }
