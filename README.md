@@ -31,6 +31,22 @@ Pet-проект с использованием js-фреймворка <b>Reac
     Компонент TableOrder — таблица для вывода истории ордеров.<br>
     Принимает 1 пропс _orders_ — массив ордеров<br><br>
 
+**Компонент MyButton**<br>
+    Компонент кнопки. Принимает 2 основных пропса:<br>
+    1) _children_ — дочерние ноды<br>
+    2) _className_ — имя класса<br>
+
+**Компонент MyInput**<br>
+    Компонент поля ввода. Принимает 2 основных пропса:<br>
+    1) _placeholderLabel_ — плейсхолдер<br>
+    2) _currency_ — текущее значение<br>
+    
+**Компонент FormInputRange**<br>
+    Компонент поля ввода с ползунком.<br>
+
+Новые ордера в таблице ордеров генерируются с помощью функции _createRandomOrder_ раз в секунду со случайными значениями в заданном диапозоне.
+    
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
