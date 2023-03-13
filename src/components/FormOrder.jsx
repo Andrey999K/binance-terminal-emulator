@@ -155,7 +155,7 @@ const FormOrder = ({typeForm, data, create, available}) => {
             />
             <MyButton
                 className={
-                'p-3 font-medium text-white rounded-md ' +
+                'p-2 font-medium text-white rounded-md text-[10px] md:text-[14px] ' +
                 (typeForm === 'buy' ? 'buy' : 'sell')}
                 onClick={event => createOrder(event, typeForm)}
             >

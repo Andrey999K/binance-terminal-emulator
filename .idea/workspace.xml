@@ -11,15 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddd3ae59-6985-487c-8116-3454a7b7741e" name="Default Changelist" comment="deploy project in gh-pages">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/input/FormInputRange.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FormOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormOrder.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableOrders.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormsOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormsOrder.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableOrders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableOrders.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +133,10 @@
       <workItem from="1678056507113" duration="1373000" />
       <workItem from="1678058332607" duration="598000" />
       <workItem from="1678060672079" duration="1830000" />
+      <workItem from="1678062582642" duration="297000" />
+      <workItem from="1678111653220" duration="30000" />
+      <workItem from="1678725599621" duration="1496000" />
+      <workItem from="1678727481230" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677634886202</created>

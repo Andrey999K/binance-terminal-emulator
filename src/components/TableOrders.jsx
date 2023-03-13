@@ -2,7 +2,7 @@ import React from 'react';
 
 const TableOrders = ({orders}) => {
     return (
-        <div className='basis-1/2'>
+        <div className='basis-1/2 overflow-hidden'>
             <div className='table-order'>
                 <div className='table-order__row table-order__head'>
                     <div>Price(USDT)</div>

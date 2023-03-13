@@ -89,7 +89,7 @@ function App() {
   return (
     <div className="App bg-[#161A1E]">
         <div className="
-            container font-sans mx-auto h-screen flex flex-col justify-between md:flex-row">
+            container overflow-hidden font-sans mx-auto h-screen flex flex-col justify-between md:flex-row">
             <FormsOrder available={available} create={createOrder} data={dataCurrency}/>
             <TableOrders orders={orders}/>
         </div>

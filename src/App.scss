@@ -26,10 +26,11 @@
     align-items: center;
     gap: 10px;
     color: #848e9c;
+    font-size: 10px;
   }
 
   &__input {
-    width: auto;
+    width: 100%;
     background: transparent;
     color: white;
     text-align: right;
@@ -71,6 +72,8 @@ button {
   max-width: 250px;
   margin: 0 auto;
   font-size: 12px;
+  overflow: auto;
+  height: 100%;
 
   &__row {
     display: flex;
@@ -146,4 +149,12 @@ input[type=range]::-moz-range-thumb {
 .input-range-form {
   margin: 12px auto;
   width: 100%;
+}
+
+@media (min-width: 1024px) {
+
+  .form-input__label {
+    font-size: 14px;
+  }
+
 }
