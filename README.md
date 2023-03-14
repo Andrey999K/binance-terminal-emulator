@@ -5,7 +5,7 @@ Pet-проект с использованием js-фреймворка <b>Reac
 
 Используемые технологии:<br>
 — HTML<br>
-— CSS<br>
+— SCSS<br>
 — JavaScript<br>
 — React<br>
 — Tailwind CSS<br>
